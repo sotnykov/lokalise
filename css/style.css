@@ -38,10 +38,10 @@ body {
 }
 
 .header {
+  padding: 25px 51px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 25px 51px;
   background: #e5e5e5;
   border-bottom: 1px solid #ccc;
 }
@@ -157,8 +157,8 @@ body {
 }
 
 .companies .wrapper {
-  align-items: center;
   padding: 108px 0 104px;
+  align-items: center;
 }
 
 .companies-title {
@@ -174,9 +174,9 @@ body {
 }
 
 .info-inner {
+  margin-bottom: 250px;
   display: flex;
   justify-content: space-between;
-  margin-bottom: 250px;
 }
 
 .info-inner:nth-child(2n) {
@@ -243,8 +243,8 @@ body {
 }
 
 .lokalize {
-  background: #fff8e4;
   margin-bottom: 154px;
+  background: #fff8e4;
 }
 
 .lokalize .wrapper {
@@ -260,6 +260,7 @@ body {
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
+  font-size: 0;
 }
 
 .lokalize-item {
@@ -268,12 +269,30 @@ body {
   flex-direction: column;
   align-items: center;
   text-align: center;
-  width: 328px;
+  width: 341px;
+}
+
+.lokalize-item:nth-child(3n+1) {
+  padding-right: 19px;
+}
+
+.lokalize-item:nth-child(3n+3) {
+  padding-left: 19px;
+}
+
+.lokalize-item:nth-child(5) {
+  width: 335px;
+}
+
+.lokalize-item:nth-child(2) .lokalize-item-title {
+  margin-top: 21px;
+  margin-right: 12px;
+  margin-bottom: 24px;
 }
 
 .lokalize-item-title {
-  margin-top: 23px;
-  margin-bottom: 20px;
+  margin-top: 24px;
+  margin-bottom: 22px;
   font-size: 25px;
   line-height: 35px;
   font-weight: 600;
@@ -295,7 +314,6 @@ body {
 .boost-list {
   display: flex;
   justify-content: space-between;
-  align-items: center;
 }
 
 .boost-item {
@@ -303,19 +321,22 @@ body {
 }
 
 .boost-item:last-child {
+  margin-right: 3px;
   width: 407px;
 }
 
 .boost-item-img {
-  margin-bottom: 28px;
+  margin-bottom: 49px;
 }
 
 .boost-item:nth-child(2) .boost-item-img {
-  margin-bottom: 64px;
+  margin-top: 17px;
+  margin-bottom: 67px;
 }
 
 .boost-item:nth-child(3) .boost-item-img {
-  margin-bottom: 73px;
+  margin-top: 9px;
+  margin-bottom: 58px;
 }
 
 .boost-item-title {
@@ -341,7 +362,7 @@ body {
 }
 
 .blockquote .wrapper {
-  padding: 53px 0 105px;
+  padding: 64px 0 105px;
   display: flex;
   justify-content: space-between;
 }
@@ -353,8 +374,12 @@ body {
   line-height: 40px;
 }
 
+.blockquote img {
+  margin-top: -11px;
+}
+
 .blockquote-author {
-  margin-bottom: 7px;
+  margin-bottom: 18px;
   display: inline-block;
   font: normal 400 15px 'Roboto';
   line-height: 25px;
@@ -365,8 +390,9 @@ body {
 }
 
 .feedback .wrapper {
+  margin-left: 55px;
   margin-bottom: 165px;
-  padding: 80px 0 84px;
+  padding: 82px 0;
   display: flex;
 }
 
@@ -375,6 +401,7 @@ body {
   justify-content: space-between;
   align-items: center;
   width: 828px;
+  height: 168px;
   border-right: 1px solid #000;
 }
 
@@ -428,6 +455,8 @@ body {
   margin-bottom: 25px;
   width: 539px;
   text-align: center;
+  font-size: 25px;
+  line-height: 30px;
 }
 
 .integrate-img {
@@ -446,10 +475,10 @@ body {
 }
 
 .try {
+  padding: 119px 0 161px;
   display: flex;
   flex-direction: column;
   text-align: center;
-  padding: 119px 0 161px;
   background: #ff9c7d;
 }
 
@@ -483,8 +512,8 @@ body {
 }
 
 .footer-top {
-  display: flex;
   padding-bottom: 95px;
+  display: flex;
   border-bottom: 1px solid #000;
 }
 
@@ -493,18 +522,19 @@ body {
 }
 
 .case-title {
+  margin-bottom: 28px;
   font-size: 40px;
   line-height: 50px;
   font-weight: 600;
-  margin-bottom: 28px;
 }
 
 .case-main-img {
-  margin-bottom: 39px;
+  margin-bottom: 30px;
 }
 
 .case-logo-img {
-  margin-bottom: 11px;
+  margin-bottom: 12px;
+  width: 27%;
 }
 
 .case-text {
@@ -514,25 +544,35 @@ body {
 }
 
 .footer-top-inner {
+  margin-top: 5px;
   display: flex;
+  font-size: 0;
 }
 
 .footer-top-box:first-child {
-  margin-right: 113px;
+  margin-right: 109px;
+  width: 112px;
 }
 
 .footer-top-box:nth-child(2) {
   margin-right: 51px;
+  width: 170px;
 }
 
 .footer-top-box:nth-child(3) {
   margin-right: 62px;
+  width: 159px;
 }
 
 .footer-top-title {
-  margin-bottom: 21px;
+  margin-bottom: 20px;
+  font-size: 20px;
   line-height: 25px;
   font-weight: 600;
+}
+
+.footer-top-list {
+  font-size: 0;
 }
 
 .footer-top-item {
@@ -546,9 +586,9 @@ body {
 }
 
 .footer-bottom {
+  padding: 47px 0 43px;
   display: flex;
   justify-content: space-between;
-  padding: 52px 0 43px;
 }
 
 .footer-bottom p {
@@ -557,6 +597,7 @@ body {
 }
 
 .footer-bottom-info {
+  padding-top: 5px;
   display: flex;
 }
 
@@ -569,6 +610,6 @@ body {
 }
 
 .footer-bottom-rights {
+  margin-right: 76px;
   width: 109px;
-  text-align: end;
 }
