@@ -608,6 +608,7 @@ body {
 .footer-bottom-info {
   padding-top: 5px;
   display: flex;
+  padding-top: 5px;
 }
 
 .footer-bottom-info img {
